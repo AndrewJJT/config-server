@@ -1,0 +1,10 @@
+# in PROD, you will have at least 2 Eureka instances
+# by defualt Eureka tries to register with Eureka
+
+# neflix-eureka/application.yml
+eureka:
+  client:
+    register-with-eureka: false
+    
+server:
+  port: 8761
